@@ -3,7 +3,7 @@
     $host = "containers-us-west-201.railway.app";
     $user = "root";
     $clave = "q6RwrOFsyWi1J3nlogwd";
-    $bd = "ferrocarril";
+    $bd = "railway";
 
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
