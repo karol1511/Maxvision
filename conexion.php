@@ -1,9 +1,9 @@
 <?php
 
-    $host = "containers-us-west-200.railway.app";
+    $host = "containers-us-west-201.railway.app";
     $user = "root";
-    $clave = "CrAu8OnaYBdtmI0pFzpC";
-    $bd = "railway";
+    $clave = "q6RwrOFsyWi1J3nlogwd";
+    $bd = "ferrocarril";
 
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
